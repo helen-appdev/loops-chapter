@@ -18,4 +18,7 @@
 # 20
 
 p "Enter a number:"
-
+num = gets.chomp
+1.upto(10) do |x|
+  p x.to_i * num.to_i
+end
